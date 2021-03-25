@@ -1,0 +1,43 @@
+body {
+    background-color: #d6fff1;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    margin: auto;
+}
+
+.card {
+    margin: auto;
+    background-color: #ffd6e4;
+    height: 80vh;
+    max-width: 80vw;
+    box-shadow: 0 1vw 3vw -1vw #000a38;
+    overflow: hidden;
+}
+
+.img-container {
+    display: grid;
+    justify-content: center;
+}
+
+.card-img {
+    margin: auto;
+    height: 50vh;
+    width: auto;
+    border-radius: 0px;
+}
+
+.card-body {
+    display: grid;
+}
+
+#meow {
+    max-height: 40px;
+    background-color: #f65d91;
+    color: #ffedf3;
+}

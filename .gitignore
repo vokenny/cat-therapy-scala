@@ -1,0 +1,32 @@
+.g8
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# sbt
+# (may want to keep parts of 'project')
+bin/
+project/
+target/
+build/
+
+#general
+*.class
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
