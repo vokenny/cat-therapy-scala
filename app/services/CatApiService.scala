@@ -7,8 +7,6 @@ import scala.concurrent.{ExecutionContext, Future}
 
 class CatApiService @Inject()(catApiConnector: CatApiConnector, implicit val ec: ExecutionContext) {
 
-//	def getListOfBreeds: List[String] = catApiConnector.getListOfBreeds
-
 	def getRandCatImage(breedName: Option[String] = None): Future[String] = {
 		breedName match {
 			case Some(name) => ???
