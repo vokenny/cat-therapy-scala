@@ -10,4 +10,6 @@ Uses [The Cat API](https://thecatapi.com/) to source the random images.
 [Download and install sbt](https://www.scala-sbt.org/)
 
 ## Running
-Use 'sbt run' to run the application
+Use `sbt run` to run the application on `http://localhost:9000/`
+
+![Cat Therapy demo gif](public/images/cat-therapy-scala.gif)
