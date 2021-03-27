@@ -1,4 +1,4 @@
-@()
+@(catUrl: String)
 
 @main("Cat Therapy") {
 <section class="card-container">
@@ -9,7 +9,7 @@
 		</div>
 
 		<div class="img-container">
-			<img src="@routes.Assets.versioned("images/placeholder-dot-com-600.png")" class="card-img" alt="...">
+			<img src="@catUrl" class="card-img" alt="...">
 		</div>
 
 		<div class="card-body">
